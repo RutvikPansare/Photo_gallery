@@ -1,0 +1,94 @@
+.Images {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.header { 
+    width: 100%; /* Full width */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-image: url(./home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin:20px;
+    flex-wrap: wrap;
+  }
+
+  
+  img {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 0;
+  }
+  
+  .button {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+    margin-right: 10px;
+  }
+  
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 40px;
+  color: rgb(1, 1, 59);
+}
+
+.search {
+  width: 400px;
+}
+
+.para{
+  color: rgb(255, 255, 255);
+}
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination{
+  display: block;
+}
+
+.image{
+  border-radius: 2%;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
